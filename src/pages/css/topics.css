@@ -1,0 +1,140 @@
+
+.layoutContent {
+  margin: auto;
+  min-height: 1000px;
+  position: relative;
+  width: 1030px;
+}
+.specialTopicCatalog {
+  padding-top: 30px;
+}
+.specialTopicCatalogFlow {
+  width: 1030px;
+}
+.loadingMore {
+  width: 100%;
+}
+.specialTopicCatalogFlowList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flowItem {
+  height: 260px;
+  margin-top: 40px;
+  width: 330px;
+}
+.specialTopicCatalogFlowList .flowItem:first-child,
+.specialTopicCatalogFlowList .flowItem:nth-child(2),
+.specialTopicCatalogFlowList .flowItem:nth-child(3) {
+  margin-top: 0;
+}
+.shadowWrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.shadowWrapperCard {
+  width: 350px;
+  height: 280px;
+  top: -10px;
+  left: -10px;
+
+  border-radius: 2px;
+  position: absolute;
+  transition: all .2s linear;
+  z-index: 101;
+}
+.shadowWrapper:hover .shadowWrapperCard {
+  box-shadow: 0px 0px 10px 5px #d3d2d2;
+  transition: all .3s linear;
+}
+.shadowContent {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 102;
+}
+.flowItemPic {
+  border-radius: 2px 2px 0 0;
+  display: block;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+}
+.flowItemPic img {
+  height: 100%;
+  width: 100%;
+}
+.scaleBig {
+  transition: all 1s;
+}
+.scaleBig:hover  {
+  transform: scale(1.12);
+}
+.flowItemTitle {
+  background-image: linear-gradient(-180deg,rgba(30,30,30,0),rgba(0,0,0,.78) 98%);
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.flowItemTitle p {
+  bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  max-height: 48px;
+  overflow: hidden;
+  padding: 0 15px;
+  position: absolute;
+  text-align: justify;
+}
+.ellipsis2,.ellipsis3 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.ellipsis2 {
+  -webkit-line-clamp: 2;
+}
+.weightBold {
+  font-weight: 500;
+}
+.flowItemDescription {
+  background: #edf1f4;
+  border-radius: 0 0 2px 2px;
+  height: 74px;
+  padding-top: 10px;
+}
+.flowItemDescription p {
+  color: #787878;
+  font-size: 13px;
+  height: 54px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 0 15px;
+  text-align: justify;
+}
+.ellipsis3 {
+  -webkit-line-clamp: 3;
+}
+.btn {
+  width: 30%;
+  height: 40px;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.btn Button:hover {
+  background-color: blue;
+  color: #fff;
+}
+.btn Button {
+  border: 1px solid blue;
+  color: blue;
+}

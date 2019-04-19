@@ -1,0 +1,198 @@
+.clearfloat::after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+.krPortal {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1009;
+}
+.krPassportMask.opacity1 {
+  opacity: 1;
+}
+.krPassportMask {
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+.krPassportMask .krPassport {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  font-size: 16px;
+  margin: 50px auto;
+  overflow: hidden;
+  text-align: left;
+  user-select: none;
+  width: 460px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.krPassportLogin header {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/login_bg.e96f56fe.png) no-repeat 50%;
+  background-size: 100% 100%;
+  height: 130px;
+  position: relative;
+}
+.krPassportLogin header .logo {
+  height: 39px;
+  margin-left: 198px;
+  margin-top: 50px;
+  width: 64px;
+}
+.krPassportLogin header .close {
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  font-size: 20px
+}
+.krPassportLogin section {
+  padding-left: 70px;
+}
+.krPassportAccount,.krPassportPassword {
+  width: 320px;
+}
+.krPassportAccount .inputArea.error {
+  border-bottom: 1px solid #f95355;
+}
+.inputArea {
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  height: 55px;
+  line-height: 55px;
+}
+.krPassportAccount .inputArea .account {
+  border: none;
+  color: #262626;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+.errorArea {
+  color: #f95355;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.krPassportPassword .inputArea .password {
+  border: none;
+  color: #262626;
+  float: left;
+  font-size: 16px;
+  height: 100%;
+  width: 60%;
+}
+.hidden {
+  background: url(http://sta.36krcnd.com/36krx2018-front/static/password_hide.29cfe72e.png) no-repeat 50%;
+  background-size: cover;
+}
+.passwordSwitch {
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  position: relative;
+  top: 17px;
+  width: 20px;
+}
+.clear {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/clear.6bdfd9b8.png) no-repeat 50%;
+  background-size: cover;
+  display: none;
+  float: right;
+  height: 20px;
+  margin-right: 20px;
+  position: relative;
+  top: 17px;
+  width: 20px;
+}
+.krPassportLogin section .forget {
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: right;
+  width: 320px;
+}
+.krPassportButton {
+  background: #d4d6d9;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: default;
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+  margin-top: 40px;
+  outline: none;
+  text-align: center;
+  width: 320px;
+}
+.krPassportButton.active {
+  background: #4285f4;
+  cursor: pointer;
+  opacity: 1;
+}
+.krPassportLogin .switch {
+  padding-top: 20px;
+  width: 320px;
+}
+.goSeaAccount {
+  color: #4285f4;
+  cursor: pointer;
+  float: left;
+  font-size: 14px;
+}
+.goRegister {
+  color: #a7a7a7;
+  float: right;
+  font-size: 14px;
+}
+.goRegister span {
+  color: #4285f4;
+  cursor: pointer;
+}
+.krPassportLogin footer {
+  color: #a7a7a7;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  margin-top: 55px;
+  padding-left: 70px;
+  text-align: center;
+}
+.krPassportLogin footer div {
+  float: left;
+}
+.krPassportLogin footer .info {
+  color: #a7a7a7;
+  padding-left: 54px;
+}
+.krPassportLogin footer .wechat {
+  background: url(../../img/wechat.82a6f134.png) no-repeat 50%;
+  background-size: cover;
+  height: 40px;
+  margin-left: 25px;
+  width: 40px;
+}
+.krPassportLogin footer .weibo {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/weibo.db021364.png) no-repeat 50%;
+  background-size: cover;
+  height: 40px;
+  margin-left: 15px;
+  width: 40px;
+}

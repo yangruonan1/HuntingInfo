@@ -1,0 +1,288 @@
+.kr_layout .kr_layout_main .main_right .kr_layout_content {
+  margin: auto;
+  min-height: 1000px;
+  position: relative;
+  width: 1030px;
+}
+.kr_author_detail {
+  padding-top: 30px;
+}
+.kr_author_detail .kr_author_detail_left {
+  float: left;
+  width: 690px;
+}
+.kr_author_detail .kr_author_detail_right {
+  float: right;
+  width: 300px;
+}
+.kr_author_detail_right, .kr_author_detail_right .kr_author_detail_follow_container {
+  float: right;
+  width: 300px;
+}
+.kr_loading_more {
+  width: 100%;
+}
+.author_detail_flow .author_detail_flow_list {
+  width: 100%;
+}
+.author_detail_flow .author_detail_flow_list .flow_item:first-child {
+  margin-top: 0;
+}
+.author_detail_flow .author_detail_flow_list .flow_item {
+  margin-top: 30px;
+}
+.author_detail_item {
+  height: 143px;
+}
+.kr_shadow_wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.kr_shadow_wrapper .kr_shadow_wrapper_card {
+  border-radius: 2px;
+  position: absolute;
+  transition: all .2s linear;
+  z-index: 101;
+}
+.kr_shadow_wrapper:hover.kr_shadow_wrapper .kr_shadow_wrapper_card{
+  box-shadow: 0 0 20px #aaa;
+}
+.kr_shadow_wrapper .kr_shadow_content {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 102;
+}
+.author_detail_item .author_detail_item_pic {
+  border-radius: 2px;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 216px;
+}
+a {
+  text-decoration: none;
+}
+.author_detail_item .author_detail_item_pic img {
+  height: 100%;
+  width: 100%;
+}
+.scaleBig:hover {
+  -webkit-transform: scale(1.12);
+  transition: all 1s;
+}
+.author_detail_item .author_detail_item_info .author_detail_item_title:hover{
+  color: #00f
+}
+.author_detail_item .author_detail_item_pic .author_detail_icon {
+  background: url(https://sta.36krcnd.com/36krx2018-front/static/home.d1523964.png) no-repeat;
+  background-position: 0 -516px;
+  background-size: 327.18px 1345.96px;
+  bottom: 0;
+  height: 48px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48px;
+  z-index: 1;
+}
+.author_detail_item .author_detail_item_info {
+  float: left;
+  height: 100%;
+  margin-left: 20px;
+  position: relative;
+  width: 454px;
+}
+.author_detail_item .author_detail_item_info .author_detail_item_title {
+  color: #262626;
+  display: block;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 8px;
+  max-height: 46px;
+  overflow: hidden;
+  text-align: justify;
+}
+.weight_bold {
+  font-weight: 500;
+}
+.ellipsis_2, .ellipsis_3 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.ellipsis_2 {
+  -webkit-line-clamp: 2;
+}
+.author_detail_item .author_detail_item_info .author_detail_item_description {
+  color: #787878;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 3px;
+  max-height: 40px;
+  overflow: hidden;
+  text-align: justify;
+}
+.kr_flow_bar {
+  bottom: 2px;
+  color: #a7a7a7;
+  float: left;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  width: 100%;
+}
+.kr_flow_bar .kr_flow_bar_time {
+  padding-left: 5px;
+}
+.kr_flow_bar .kr_flow_bar_time .kr_flow_bar_time_icon {
+  background: url(https://sta.36krcnd.com/36krx2018-front/static/home.d1523964.png) no-repeat;
+  background-position: 0 -115px;
+  background-size: 246px 1012px;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  right: 5px;
+  top: 1px;
+}
+.kr_loading_more_button {
+  border: 1px solid #4285f4;
+  border-radius: 1px;
+  color: #4285f4;
+  cursor: pointer;
+  font-size: 16px;
+  height: 36px;
+  line-height: 34px;
+  margin: 0 auto;
+  text-align: center;
+  width: 148px;
+}
+.show {
+  display: block;
+}
+.kr_loading_more_tip, .kr_loading_no_more_tip {
+  font-size: 16px;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 auto;
+  text-align: center;
+}
+.kr_loading_more_tip {
+  border: 1px solid #4285f4;
+  border-radius: 1px;
+  color: #4285f4;
+  width: 148px;
+}
+.kr_loading_no_more_tip {
+  color: #262626;
+}
+.kr_follow {
+  height: 0;
+}
+.kr_author_detail_right, .kr_author_detail_right .kr_author_detail_follow_container {
+  float: right;
+  width: 300px;
+}
+.kr_card {
+  position: relative;
+  width: 100%;
+}
+.kr_card .top_line {
+  background: #4285f4;
+  border-radius: 2px 2px 0 0;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.kr_card_content {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  min-height: 20px;
+}
+.author_detail_info {
+  padding: 0 15px 16px;
+  position: relative;
+  width: 300px;
+}
+.author_detail_info .author_detail_info_header {
+  padding-top: 19px;
+}
+.author_detail_info .author_detail_info_header .author_avatar {
+  border-radius: 100%;
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+.author_detail_info .author_detail_info_header .info_header_text {
+  float: left;
+  height: 80px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-top: 15px;
+  width: 180px;
+}
+.author_detail_info .author_detail_info_header .info_header_text .author_name {
+  color: #262626;
+  display: block;
+  font-size: 20px;
+  height: 28px;
+  line-height: 28px;
+  text-align: justify;
+  width: 170px;
+}
+.ellipsis_1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.author_detail_info .author_detail_info_header .info_header_text .author_role {
+  background: #f0f6ff;
+  border: 1px solid #4285f4;
+  color: #4285f4;
+  display: inline_block;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 4px;
+  padding: 0 6px;
+  text-align: center;
+}
+.author_detail_info .author_description {
+  color: #787878;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px 0;
+}
+.author_detail_info .author_detail_info_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+.author_detail_info .author_detail_info_footer .author_article_count {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  width: 170px;
+}
+.author_detail_info .author_detail_info_footer .author_article_count i {
+  background: #4285f4;
+  display: inline-block;
+  padding: 5px 1px;
+}
+.author_detail_info .author_detail_info_footer .author_article_count span {
+  color: #a7a7a7;
+  font-size: 14px;
+  padding-left: 6px;
+  text-align: justify;
+}

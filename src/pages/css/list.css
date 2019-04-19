@@ -1,0 +1,309 @@
+.NewsLeft{
+  float: left;
+  width: 690px;
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
+  padding-top:30px;
+  position: relative;
+}
+.flowItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.dateCard {
+  border-radius: 1px;
+  height: 58px;
+  overflow: hidden;
+  width: 40px;
+  visibility: hidden;
+}
+.flowItem:first-of-type .dateCard{
+  visibility: visible
+}
+.dateCard span{
+  display: block
+}
+.dateCard .month {
+  border: 1px solid #4285f4;
+  border-bottom: none;
+  color: #4285f4;
+  font-size: 14px;
+  height: 21px;
+  letter-spacing: 1.75px;
+  line-height: 20px;
+  text-align: center;
+}
+.dateCard .day {
+  background: #4285f4;
+  color: #fff;
+  font-size: 26px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+}
+.weightBold {
+  font-weight: 500;
+}
+.itemMain {
+  width: 630px;
+}
+.newsflashItem {
+  width: 100%;
+}
+.newsflashItem .itemTitle {
+  color: #262626;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  transition: .5s;
+}
+/* .newsflashItem .itemTitle:hover{
+  color: #4285f4
+} */
+.newsflashItem .itemOther {
+  color: #a7a7a7;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  margin: 6px 0 10px;
+}
+.newsflashItem .itemOther>* {
+  float: left;
+  margin-right: 8px;
+  transition: .5s;
+}
+.newsflashItem .itemOther .time {
+  margin-right: 20px;
+}
+.newsflashItem .itemOther .wechat {
+  background: url(../../img/wechat-pray.28ebe3d1.png) no-repeat 50%;
+  background-size: cover;
+  cursor: default;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+.wechat:hover .shareCode,.wechat:hover .qrcode{
+  display: block;
+}
+.wechat .shareCode {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 2px #ddd;
+  color: #262626;
+  font-size: 13px;
+  height: 80px;
+  left: -20px;
+  line-height: 20px;
+  padding: 10px 10px 10px 80px;
+  position: absolute;
+  top: -88px;
+  transition: visibility .2s;
+  display: none;
+  width: 240px;
+  z-index: 1001;
+}
+.qrcode {
+  height: 60px;
+  left: -7px;
+  position: absolute;
+  top: -77px;
+  width: 60px;
+  z-index: 1002;
+  display: none;
+}
+.itemOther .weibo {
+  background: url(../../img/weibo-pray.55864b4a.png) no-repeat 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+.itemOther .weibo:hover {
+  background: url(../../img/weibo-active.png) no-repeat 50%;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+}
+.itemDesc {
+  color: #787878;
+  font-size: 14px;
+  line-height: 24px;
+}
+.itemDesc .link {
+  background: url(../../img/lianjie.png) no-repeat 0;
+  background-size: 14px;
+  color: #4d7fd0;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 19px;
+}
+.newsflashItem .small {
+  max-height: 258px;
+  max-width: 258px;
+}
+.newsflashItem .itemImage {
+  border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  transition: .5s;
+}
+
+/* 右侧 */
+.krNewsflashCatalogRight {
+  float: right;
+  width: 300px;
+}
+.krColumnTitle {
+  height: 28px;
+  line-height: 28px;
+}
+.krColumnTitleIcon {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/home.d1523964.png) no-repeat;
+  background-position: 0 -125px;
+  background-size: 246px 1012px;
+  display: inline-block;
+  padding: 7px;
+}
+.krColumnTitleText {
+  color: #262626;
+  font-size: 20px;
+  padding-left: 4px;
+}
+.weightBold {
+  font-weight: 500;
+}
+.krHotlist .hotlistMain {
+  padding-top: 2px;
+}
+.hotlistItemToptwo {
+  border-radius: 2px;
+  height: 200px;
+  margin-top: 14px;
+  position: relative;
+  width: 300px;
+}
+.hotlistItemToptwoPic {
+  border-radius: 2px;
+  display: block;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.hotlistItemToptwoPic img,.hotlistItemOtherPic img {
+  height: 100%;
+}
+.scaleBig {
+  transition: all 1s;
+}
+.scaleBig:hover {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+.hotlistItemToptwoIcon {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/home.d1523964.png) no-repeat;
+  background-size: 246px 1012px;
+  left: -10px;
+  padding: 19px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.hotlistItemToptwoTitle {
+  background-image: linear-gradient(-180deg,transparent 13%,rgba(0,0,0,.65) 97%);
+  border-radius: 2px;
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.hotlistItemToptwoTitle p {
+  bottom: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  max-height: 40px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 16px;
+  position: absolute;
+  text-align: justify;
+}
+.weightBold {
+  font-weight: 500;
+}
+.ellipsis2, .ellipsis3 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.ellipsis2 {
+  -webkit-line-clamp: 2;
+}
+.hotlistItemOther {
+  border-radius: 2px;
+  height: 70px;
+  margin-top: 14px;
+}
+.hotlistItemOtherPic {
+  border-radius: 2px;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 105px;
+}
+.hotlistItemOtherPic a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.hotlistItemOtherIcon {
+  background-image: url(//sta.36krcnd.com/36krx2018-front/static/home.d1523964.png);
+  background-repeat: no-repeat;
+  background-size: 246px 1012px;
+  border-radius: .5px .5px 2px .5px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.hotlistItemOtherInfo {
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+  position: relative;
+  width: 185px;
+}
+.hotlistItemOtherTitle {
+  color: #262626;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  max-height: 40px;
+  overflow: hidden;
+  text-align: justify;
+}
+.hotlistItemOtherTime {
+  bottom: 0;
+  color: #a7a7a7;
+  font-size: 12px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: justify;
+}

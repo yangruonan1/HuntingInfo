@@ -1,0 +1,294 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+
+.clearfloat::after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.app {
+  margin: 0 auto;
+  width: 1170px;
+  height: 100%;
+}
+.mainLeft{
+  float: left;
+  min-height: 600px;
+  position: relative;
+  width: 100px;
+  top:0
+}
+.mainRight{
+  float: right;
+  width: 1030px;
+}
+.KrSider{
+  left: 0;
+  padding-right: 25px;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  z-index: 100;
+}
+.home{
+  height: 38px;
+  width: 100%;
+  text-decoration: none;
+}
+.logo{
+  background: url(../img/nav.png) no-repeat;
+background-position: 0 0;
+background-size: 246px 1012px;
+float: right;
+height: 38px;
+width: 68px;
+}
+.line{
+  background: #ddd;
+  height: 1px;
+  position: relative;
+  top: 60px;
+  width: 20px;
+  left:67px
+}
+.krChannelNav {
+  padding-top: 80px;
+}
+.channelItem {
+  font-size: 18px;
+  line-height: 36px;
+  text-align: right;
+}
+.openIcon {
+  -webkit-transform: rotate(-180deg);
+  background: url(../img/nav.png) no-repeat;
+  background-position: 0 -38px;
+  background-size: 246px 1012px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 4px;
+  padding: 6px;
+  transform: rotate(-180deg);
+  transition: -webkit-transform .5s linear;
+  transition: transform .5s linear;
+  transition: transform .5s linear,-webkit-transform .5s linear;
+}
+.close {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.name {
+  border-radius: 1px;
+  color: #262626;
+  padding: 1px 7px;
+  position: relative;
+  right: -7px;
+}
+.weightBold {
+  font-weight: 500;
+}
+/* a.active {
+  background: #4285f4;
+  color: #fff;
+} */
+.krChannelNav .channelItem .subList.open {
+  max-height: 162px;
+}
+.krChannelNav .channelItem .subList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-height: 0;
+  overflow: hidden;
+  padding-right: 20px;
+  transition: all .5s linear;
+  width: 100px;
+}
+.subItem {
+  display: inline-block;
+  width: 28px;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+  text-align: right;
+  box-sizing: content-box;
+  float: left;
+}
+.subItem a {
+  color: #787878;
+}
+.subItem a.hover{
+  color:#4285f4;
+}
+ .subItem:nth-child(2n) {
+  padding-left: 20px;
+}
+.subItem .hot {
+  background: url(//sta.36krcnd.com/36krx2018-front/static/home.d1523964.png) no-repeat;
+  background-position: 0 -50px;
+  background-size: 246px 1012px;
+  padding: 5px 7px;
+  position: absolute;
+  right: -16px;
+  top: 7px;
+}
+
+/* 右侧顶部 */
+.krHeader {
+  background: #fff;
+  height: 34px;
+  line-height: 34px;
+  width: 100%;
+}
+.krHeaderMain::after {
+  left: -3px;
+}
+.krHeaderMain::before {
+  background: #fff;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+.krHeaderMain::before {
+  right: -3px;
+}
+.krHeaderContent {
+  height: 100%;
+  margin: 0 auto;
+  text-align: right;
+  width: 1030px;
+}
+/* 隐藏部分 */
+.userLogin {
+  background: #edf1f4;
+  cursor: pointer;
+  float: right;
+  height: 34px;
+  padding-top: 2px;
+  position: relative;
+  vertical-align: top;
+  width: 60px;
+}
+.userPic {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: block;
+  height: 30px;
+  margin: 0 15px;
+  width: 30px;
+}
+.pullDown {
+  background: #fff;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+  display: none;
+  left: -113px;
+  padding-left: 20px;
+  position: absolute;
+  top: 34px;
+  width: 172px;
+  z-index: 9999;
+}
+.userLogin:hover .pullDown{
+  display: block
+}
+.userName {
+  border-top: none;
+  font-size: 15px;
+  height: 54px;
+  line-height: 54px;
+}
+.pullDown a {
+  border-top: 1px solid #ddd;
+  color: #262626;
+  float: left;
+  font-size: 13px;
+  height: 38px;
+  line-height: 38px;
+  text-align: left;
+  width: 132px;
+}
+.ellipsis-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.krHeaderPassport {
+  background: #4285f4;
+  float: right;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 2px;
+  position: relative;
+  text-align: center;
+  width: 118px;
+}
+.krHeaderPassport .resgister,.krHeaderPassport .login {
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+.krHeaderPassport .resgister:hover,.krHeaderPassport .login:hover {
+  background: #115dd8;
+  color: #fff
+}
+.resgister span,.login span {
+  position: relative;
+  z-index: 2;
+}
+.krHeaderPassport a {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  text-align: justify;
+}
+.krHeaderPassport .line {
+  left: 48px;
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+}
+.businessLine {
+  float: right;
+  height: 100%;
+}
+.businessLine li {
+  float: left;
+  font-size: 12px;
+  margin: 0 20px;
+  text-align: justify;
+}
+.businessLine li a {
+  color: #262626;
+}
+.krProduct {
+  background: url(../img/jt.png) no-repeat;
+  background-position: 0;
+  background-size: 6px 10px;
+  color: #4285f4;
+  padding-left: 10px;
+}
+.krProduct .product {
+  color: #000;
+}
+

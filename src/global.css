@@ -1,0 +1,18 @@
+
+html, body, #root {
+  height: 100%;
+}
+#root{
+  width: 100%;
+  min-height: 1000px;
+  height: auto !important;
+  height: 1000px;
+}
+body {
+  margin: 0;
+  overflow:auto;
+}
+a.active {
+  background: #4285f4;
+  color: #fff !important;
+}
